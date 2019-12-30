@@ -1,0 +1,62 @@
+<style>
+body {
+  background-color: #9CD1D2;
+}
+
+#div1{
+  background-color: #7DB3B9;
+  font-family: monospace;
+  color: #F9FAFA;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#tribute-info{
+  font-family: monospace;
+  color: #333D3E;
+  text-align: center;
+}
+
+img
+{
+    border-style: solid; 
+    border-radius: 10px;
+
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+</Style>>
+
+<body>
+  <main id="main">
+    <div id="div1">
+      <h1 id="title">Martin Luther King, Jr.</h1>
+      <h2> "I have a Dream"</h2>
+      <div id="img-div"> <img id="image" src="https://ep02.epimg.net/elpais/imagenes/2018/01/11/opinion/1515673941_709283_1516021442_noticia_fotograma.jpg" alt="Photography of Martin Luther King Jr." class="div2">
+        <p id="img-caption">Martin Luther King Jr. was an American Christian minister and activist who became the most visible spokesperson and leader in the Civil Rights Movement</p>
+      </div>
+    </div>
+    <section id="tribute-info">
+      <h3>Time Line:</h3>
+      <ul>
+        <li>
+          <strong>1929</strong> - Born in Atlanta, Georgia, U.S.A.
+        </li>
+        <li><strong>1942</strong> - Assistant Manager in Atlanta Journal</li>
+        <li><strong>1948</strong> - Graduated on sociology at Morehous</li>
+        <li><strong>1953</strong> - Married with <a id="tribute-link" target="_blank" href="https://en.wikipedia.org/wiki/Coretta_Scott_King">Coretta Scott</a></li>
+        <li><strong>1954</strong> - Pastor of the Dexter Avenue Baptist Church in Montgomery, Alabama</li>
+      </ul>
+    </section>
+
+  </main>
+</body>
